@@ -1,5 +1,5 @@
 import React from 'react';
-import { Field, reduxForm, formValues } from 'redux-form';
+import { Field, reduxForm} from 'redux-form';
 
 class ItemCreate extends React.Component{
   renderError({error, touched}){
